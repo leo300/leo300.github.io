@@ -1,8 +1,23 @@
 <iframe name='hidden-iframe' style='display: none'></iframe>
 <form id='google-form' method='post' action='https://script.google.com/macros/u/0/s/AKfycbxz-PEYs0JqU99Au6i6qMw34mC7cIGBfCLeTyH0xfM_vsjgZg/exec'>
-  <div>Name:</div>
-  <input type='text' name='Name'>
-  <div>Email:</div>
-  <input type='text' name='Email'>
-  <input type='submit' value='Submit'>
-</form>
+
+                        <div class="col-sm-4">
+                            <label for="usr">Your Name</label>
+                            <input type="text" class="form-control" id="usr">
+                        </div>
+                        <div class="col-sm-4">
+                            <label for="email">Your Email</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="col-sm-4">
+                            <label for="number">Your Number</label>
+                            <input type="number" class="form-control" id="number">
+                        </div>
+                        <div class="col-sm-12">
+                            <label for="massage">Your Massage</label>
+                            <textarea class="form-control" rows="10" id="massage"></textarea>
+
+                            <button type="submit" class="btn red-btn"> SEND YOUR MESSAGE</button>
+                        </div>
+
+                    </form>
